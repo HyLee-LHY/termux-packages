@@ -23,8 +23,10 @@ fi
 
 # Termux packages configuration.
 TERMUX_APP_PACKAGE="com.termux"
-TERMUX_BASE_DIR="/data/data/${TERMUX_APP_PACKAGE}/files"
-TERMUX_CACHE_DIR="/data/data/${TERMUX_APP_PACKAGE}/cache"
+TERMUX_BASE_DIR="/data/local/tmp/termux/files"
+#TERMUX_BASE_DIR="/data/data/${TERMUX_APP_PACKAGE}/files"
+TERMUX_CACHE_DIR="/data/local/tmp/termux/cache"
+#TERMUX_CACHE_DIR="/data/data/${TERMUX_APP_PACKAGE}/cache"
 TERMUX_ANDROID_HOME="${TERMUX_BASE_DIR}/home"
 TERMUX_APPS_DIR="${TERMUX_BASE_DIR}/apps"
 TERMUX_PREFIX="${TERMUX_BASE_DIR}/usr"
